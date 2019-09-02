@@ -4,10 +4,10 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 import Header from './Header';
 import Landing from './Landing';
+import Dashboard from './Dashboard';
 import * as actions from '../actions';
 
-const SurveyNew = () => <div>SurveyNew</div>;
-const Dashboard = () => <div>Dashboard</div>;
+import SurveyNew from './surveys/SurveyNew';
 
 class App extends Component {
   componentDidMount() {
